@@ -108,7 +108,7 @@ class _AccueilState extends State<Accueil> {
     // Compare les versions
     if (apiVersion.compareTo(localVersion) > 0) {
       // La version de l'API est supérieure à la version locale
-      _showModal(context);
+      // _showModal(context);
     }
   }
 
@@ -310,17 +310,6 @@ class _AccueilState extends State<Accueil> {
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         // backgroundColor: Couleurs.CouleurSecondaire,
-        actions: [
-          IconButton(
-            icon: const Icon(
-              Icons.notifications_none,
-              size: 35,
-            ),
-            onPressed: () {
-              // logout();
-            },
-          )
-        ],
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,

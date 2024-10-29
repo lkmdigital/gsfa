@@ -365,37 +365,37 @@ class _SupportState extends State<Support> {
                               SizedBox(
                                 height: size.height * 0.015,
                               ),
-                              GestureDetector(
-                                onTap: () {
-                                  _launchRating();
-                                },
-                                child: ListTile(
-                                  leading: const CircleAvatar(
-                                      child: Icon(
-                                    Icons.star_border,
-                                    color: Colors.white,
-                                    size: 20,
-                                  )),
-                                  title: Column(
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
-                                    children: [
-                                      AutoSizeText(
-                                        "Noter l'application",
-                                        style: Theme.of(this.context)
-                                            .textTheme
-                                            .titleLarge,
-                                      ),
-                                      AutoSizeText(
-                                        "Donnez votre avis sur l'App",
-                                        style: Theme.of(this.context)
-                                            .textTheme
-                                            .titleMedium,
-                                      )
-                                    ],
-                                  ),
-                                ),
-                              ),
+                              // GestureDetector(
+                              //   onTap: () {
+                              //     _launchRating();
+                              //   },
+                              //   child: ListTile(
+                              //     leading: const CircleAvatar(
+                              //         child: Icon(
+                              //       Icons.star_border,
+                              //       color: Colors.white,
+                              //       size: 20,
+                              //     )),
+                              //     title: Column(
+                              //       crossAxisAlignment:
+                              //           CrossAxisAlignment.start,
+                              //       children: [
+                              //         AutoSizeText(
+                              //           "Noter l'application",
+                              //           style: Theme.of(this.context)
+                              //               .textTheme
+                              //               .titleLarge,
+                              //         ),
+                              //         AutoSizeText(
+                              //           "Donnez votre avis sur l'App",
+                              //           style: Theme.of(this.context)
+                              //               .textTheme
+                              //               .titleMedium,
+                              //         )
+                              //       ],
+                              //     ),
+                              //   ),
+                              // ),
                             ],
                           ),
                         ),
