@@ -30,7 +30,7 @@ class _OperationState extends State<Operation> {
                 centerTitle: true,
                 title: const AutoSizeText(
                   "SERVICES",
-                  maxFontSize: 15,
+                  maxFontSize: 15,990
                   minFontSize: 14,
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,

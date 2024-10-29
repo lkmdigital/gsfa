@@ -872,7 +872,7 @@ class _PaiementPage extends State<PaiementPage> {
                                     AutoSizeText(
                                       // '${totalfrais}',
                                       // '$totalfrais F',
-                                      '9.900 F',
+                                      '2.000 F',
                                       textAlign: TextAlign.center,
                                       style: TextStyle(
                                         fontSize: 12,
